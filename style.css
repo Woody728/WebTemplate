@@ -1,0 +1,82 @@
+* {
+   font-family: Ubuntu;
+}
+
+#first-container {
+       display: grid;
+       grid-template-areas: "b sec";
+       grid-template-columns: 200px auto;
+      }
+
+#box-a {
+    background: red;
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    }
+    
+#box-b {
+        background: blue;
+        grid-area: b;
+        width: 200px;
+        height: 500px;
+        }
+      
+#second-container {
+                   grid-area: sec;
+                   grid-template-areas: "c" "d"; 
+                   }      
+  
+#box-c {
+        background: green;
+        height: 800px;
+        grid-area: c;
+        }
+        
+#box-d {
+        background: yellow;
+        height: 800px;
+        grid-area: d;
+        }
+
+      
+.header-button {
+                background: red;
+                width: 80px;
+                color: white;
+                display: inline-block;
+                text-align: center;
+                padding: 10px;
+                border-bottom: 3px solid red;
+                }
+                
+.header-button:hover {
+                      color: yellow;
+                      border-bottom: 3px solid black;
+                      cursor: pointer;
+                     }
+
+video {
+       z-index: 1;
+       }
+                   
+.side-tile {
+            height: 35px;
+            border-right: 2px solid black;
+            border-left: 2px solid black;
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+            text-align: center;
+            padding-top: 15px;
+            background: blue;
+            }
+            
+.side-tile:hover {
+                  background: #00007f;
+                  border-right: 2px solid red;
+                  border-left: 2px solid red;
+                  border-top: 1px solid red;
+                  border-bottom: 1px solid red;
+                  cursor: pointer;
+                  }
