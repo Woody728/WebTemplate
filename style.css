@@ -85,3 +85,7 @@ video {
                   border-bottom: 1px solid red;
                   cursor: pointer;
                   }
+
+#last-side-tile:hover {
+                       border-bottom: 2px solid red;
+                       }
