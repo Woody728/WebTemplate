@@ -72,7 +72,11 @@ video {
             padding-top: 15px;
             background: blue;
             }
-            
+
+#last-side-tile {
+                 border-bottom: 2px solid black;
+                 }
+
 .side-tile:hover {
                   background: #00007f;
                   border-right: 2px solid red;
